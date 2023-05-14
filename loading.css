@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #ff0080, #ff0000, #ff4500, #ff8c00, #ffd700, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subtitle p {
+        font-size: 18px;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 0.8;
+}
+
